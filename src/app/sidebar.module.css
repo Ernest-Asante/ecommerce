@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 1000;
+    padding: 2rem;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .list-item {
+    padding: 0.75rem 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  

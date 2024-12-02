@@ -1,0 +1,25 @@
+
+
+@media (min-width: 571px){
+
+    .medium{
+        display: block;
+        background-color:rgb(5,25,0,1);
+    }
+    .large{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .large{
+        display: block;
+        background-color:rgb(5,25,0,1);
+    }
+    .medium{
+        display: none;
+    }
+
+}

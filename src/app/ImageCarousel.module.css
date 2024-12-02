@@ -1,0 +1,42 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height:  55vh;
+    overflow: hidden;
+    border-radius: 5px;
+    top:5px;
+    z-index: 50;
+  }
+  
+  .imageContainer {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%; /* Takes 30% of the image */
+   /* background: rgba(0, 0, 0, 0.7); */
+    /* 70% opacity for the shadow */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1.3), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.0)); /* Gradient shadow */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+  }
+  
